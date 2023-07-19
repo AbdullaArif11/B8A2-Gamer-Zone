@@ -1,9 +1,15 @@
 *{
   margin: 0;
+  font-family: 'Work Sans', sans-serif;
 }
 :root{
-  --primary-color: #F948B2;
   --color-p: #534C64;
+}
+.primary-title-color{
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .primary-h3{
   color: #0B0223;
@@ -66,6 +72,77 @@ nav li a {
 #nav-right img{
   width: 30%;
   margin: .7rem 0 .7rem 2rem;
-  /* margin-top: .5rem;
-  margin-bottom: .5rem; */
 }
+
+/* /////////////////////////////////// */
+main{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+/* // */
+.banner{
+  display: flex;
+  justify-content: space-between;
+}
+.s1-box1 {
+  background-color: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+  background-image: url(images/Group\ 14.png);
+  text-align: center;
+  /* max-width: 901px; */
+  padding-top: 9.25rem;
+}
+.s1-box1-h3{
+  font-weight: 600;
+}
+.GOAT{
+  font-size: 5.94rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+}
+.s1-box1 p{
+  color: var(--color-p);
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 1.09rem;
+}
+.btn2{
+  background-color: #4EC5F7;
+  margin-left: 2rem;
+}
+.s1-box2{
+  max-width: 901px;
+  
+}
+.s1-box2 img{
+  width: 100%;
+}
+/* ////////////////////////////////// */
+.Online-Games{
+  margin-top: 120px;
+  text-align: center;
+}
+.s3-p{
+  color: var(--color-p);
+  font-size: 1.13rem;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+.s3-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.s3-card{
+  max-width: 21.37rem;
+}
+.s3-card img{
+  height: 90%;
+}
+.card-p{
+  color: var(--color-p);
+  text-align: left;
+  font-size: 1.13rem;
+  font-weight: 400;
+}
+
+/* //////////////////// */
