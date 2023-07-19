@@ -146,3 +146,46 @@ main{
 }
 
 /* //////////////////// */
+
+.Play-Instantly{
+  display: flex;
+  gap: 7.5rem;
+  margin-top: 120px;
+  justify-content: space-between;
+}
+.s4-text{
+  padding-top: 10%;
+  padding-left: 10rem;
+}
+.s4-text h3{
+  max-width: 21.31rem;
+  text-align: right;
+  margin-bottom: .5rem;
+  margin-bottom: 10px;
+}
+.s4-text p{
+  color: var(--color-p);
+  text-align: right;
+  font-size: 1.13rem;
+  font-weight: 400;
+  max-width: 22.07rem;
+}
+.s4-image{
+  margin-left: 10rem;
+  margin-top:0;
+  margin-right: 0;
+}
+
+.s4-image > img{
+  width:100%
+}
+.s4-image2{
+  max-width: 19.9rem;
+  position: relative;
+  bottom: 19rem;
+  right: 10rem;
+}
+.s4-image2 img{
+  width: 100%;
+  border: 3px solid white;
+}
